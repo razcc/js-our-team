@@ -30,3 +30,17 @@ const team = [
       image: 'barbara-ramos-graphic-designer.jpg',
     },
   ];
+
+  for(let i= 0; i < team.length; i++){
+    let nameTeam = team[i].name;
+    console.log(`Team composto da: ${nameTeam}`);
+
+    let professioneTeam = team[i].role;   
+    console.log(`${nameTeam} ha il ruolo di ${professioneTeam}`);
+
+    let photoTeam = team[i].image;
+    console.log(`Photo: ${photoTeam}`);
+
+    console.log(".......")
+    
+  }
