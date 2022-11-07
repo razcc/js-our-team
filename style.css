@@ -1,0 +1,4 @@
+.card {
+    --bs-card-border-width: 0 !important;
+    --bs-card-inner-border-radius: 0px !important;
+}
